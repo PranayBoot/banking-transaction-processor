@@ -10,10 +10,12 @@ to leave a small, compilable core whose behaviour is documented by tests.
 ## How to run
 
 ```bash
-mvn test
+./gradlew test
 ```
 
-Requires JDK 17+ and Maven.
+Requires JDK 17+. Gradle Wrapper is committed, so a local Gradle install is not needed.
+
+The full scenario catalogue is in [TEST_SCENARIOS.md](TEST_SCENARIOS.md).
 
 Public API: `com.banking.application.BankingService`.
 

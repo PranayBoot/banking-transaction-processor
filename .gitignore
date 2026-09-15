@@ -1,7 +1,40 @@
+# Gradle
+.gradle/
+build/
+
+# Maven leftover
 target/
+
+# Compiled / generated
+out/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# Keep the Gradle Wrapper jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
 .idea/
 *.iml
-.DS_Store
+*.ipr
+*.iws
 .classpath
 .project
 .settings/
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and local env
+*.log
+.env
+.env.*
